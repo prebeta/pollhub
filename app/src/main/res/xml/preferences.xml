@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_agencies"
+        android:key="pref_key_agency_settings">
+        <CheckBoxPreference
+            android:key="Brown University"
+            android:title="@string/pref_title_brown"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="CBS News"
+            android:title="@string/pref_title_cbs"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="Emerson"
+            android:title="@string/pref_title_emerson"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="FOX News"
+            android:title="@string/pref_title_fox"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="Gallup"
+            android:title="@string/pref_title_gallup"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="Gravis"
+            android:title="@string/pref_title_gravis"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="NBC News"
+            android:title="@string/pref_title_nbc"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="PPP (D)"
+            android:title="@string/pref_title_ppp"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="Rutgers-Eagleton"
+            android:title="@string/pref_title_rutgers"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="USA Today"
+            android:title="@string/pref_title_usatoday"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="WPR/St. Norbert"
+            android:title="@string/pref_title_wpr"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+    <Preference android:title="@string/pref_submit"
+        android:key="submit_button"
+        android:summary="Save your changes"/>
+</PreferenceScreen>

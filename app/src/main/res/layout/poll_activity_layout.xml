@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="?android:attr/actionBarSize"
+    tools:showIn="@layout/app_bar_poll_hub__issues_poll">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#444"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/orgA"
+        android:text="Organization" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#888"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/dateA"
+        android:text="Date" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#444"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/titleA"
+        android:text="Title" />
+
+    <org.eazegraph.lib.charts.BarChart
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp"
+        android:paddingBottom="20dp"
+        app:egFixedBarWidth="true"
+        app:egBarWidth="60dp"
+        app:egLegendHeight="40dp"
+        app:egLegendTextSize="18dp"/>
+
+</LinearLayout>

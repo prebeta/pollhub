@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+    <item android:title="Home" android:icon="@drawable/ic_home" android:id="@+id/home"/>
+
+    <item android:title="Candidates" android:icon="@drawable/ic_candidates" android:id="@+id/candidates"/>
+
+    <item android:title="Issues" android:icon="@drawable/ic_policy" android:id="@+id/issues"/>
+
+</group>
+
+
+    <item android:title="Sub-Issues">
+
+
+    <menu>
+
+    <item android:title="Defense" android:icon="@drawable/ic_lock" android:id="@+id/sub_defense"/>
+
+    <item android:title="Economy" android:icon="@drawable/ic_economy" android:id="@+id/sub_econ"/>
+
+    <item android:title="Current policy" android:icon="@drawable/ic_current_pol" android:id="@+id/sub_pol"/>
+
+</menu>
+
+</item>
+
+</menu>

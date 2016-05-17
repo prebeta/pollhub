@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PollHub</string>
+    <string name="issues_name">PollHub:Issues</string>
+    <string name="subissue_name">PollHub:Issues:SubIssue</string>
+    <string name="poll_name">PollHub:Poll</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="selection_name">Candidate Selection</string>
+
+    <string name="comparison_name">Candidate Comparison</string>
+
+    <string name="choose_candidate_instructions">Choose one candidate to explore their polling data, or two candidates to compare them.</string>
+
+    <string name="clinton_text">Hillary Clinton</string>
+
+    <string name="choose_candidate_button">Next</string>
+
+    <string name="title_activity_candidate__comparison">Candidate_Comparison</string>
+
+    <string name="pref_agencies">Polling Agencies</string>
+    <string name="pref_title_gallup">Gallup</string>
+    <string name="pref_title_usatoday">USA Today</string>
+    <string name="pref_title_fox">FOX News</string>
+    <string name="pref_title_ppp">PPP (D)</string>
+    <string name="pref_title_gravis">Gravis</string>
+    <string name="pref_title_brown">Brown University</string>
+    <string name="pref_title_cbs">CBS News</string>
+    <string name="pref_title_rutgers">Rutgers-Eagleton</string>
+    <string name="pref_title_wpr">WPR/St. Norbert</string>
+    <string name="pref_title_nbc">NBC News</string>
+    <string name="pref_title_emerson">Emerson</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_submit">Submit Changes</string>
+
+</resources>
